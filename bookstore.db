@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS books (
+    id INTEGER PRIMARY KEY,
+    title TEXT,
+    author TEXT,
+    price REAL
+);
+
+INSERT INTO books (title, author, price) VALUES ('Book1', 'Author1', 10.99);
+INSERT INTO books (title, author, price) VALUES ('Book2', 'Author2', 15.99);
